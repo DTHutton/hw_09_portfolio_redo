@@ -15,6 +15,12 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
@@ -38,6 +44,7 @@
 
     <main class="container">
 
+        <!-- About Me -->
         <section class="row m-2 border d-inline-flex p-2 bg-dark text-white">
             <div class="col-8 m-2">
                 <h3>About Me</h3>
@@ -53,10 +60,11 @@
             <img src="./assets/images/profile_img.jpg" class="border rounded col-4 m-2 d-inline" alt="profile picture">
         </section>
 
+
+        <!-- Project Carousel -->
         <section class="row projects m-2">
 
-            <div class="col-sm-2"></div>
-            <div id="carouselExampleIndicators" class="carousel slide col-sm-8" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide col-sm-12" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -65,9 +73,17 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./assets/images/meme-fight.png" class="d-block w-100" alt="Meme Fight">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <img src="./assets/images/crystal-collector.png" class="d-block w-100" alt="Crystal Collector">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
                     </div>
                     <!-- <div class="carousel-item">
                         <img src="..." class="d-block w-100" alt="...">
@@ -82,13 +98,14 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-            <div class="col-sm-2"></div>
+
         </section>
 
     </main>
 
-    <footer>
 
+    <footer class="footer navbar-dark bg-dark row">
+        <span class="navbar-text col-sm-12 text-center">&#169; Derek Hutton</span>
     </footer>
 
 </body>
