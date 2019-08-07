@@ -14,8 +14,19 @@ body {
 
 .caption-text-head {
     color: black;
+    font-weight: bold;
+    font-family: 'Blinker', sans-serif;
 }
 
 .caption-text-paragraph {
     color: black;
+    font-family: 'Blinker', sans-serif;
+}
+
+.about-me-text {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.about-me-head {
+    font-family: 'Roboto Mono', monospace;
 }
