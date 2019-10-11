@@ -1,0 +1,24 @@
+{
+  "name": "hw_09_portfolio_redux",
+  "version": "1.0.0",
+  "description": "My second attempt at my portfolio after 7 weeks of instruction.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DTHutton/hw_09_portfolio_redux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DTHutton/hw_09_portfolio_redux/issues"
+  },
+  "homepage": "https://github.com/DTHutton/hw_09_portfolio_redux#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
