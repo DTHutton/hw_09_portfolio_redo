@@ -1,25 +1,11 @@
 function domReady() {
     document.body.className += ' javascript';
     // code goes here
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
+    const copyright = () => `© ${new Date().getFullYear()} Derek Hutton`;
+
+    $("#copyright").html(copyright);
+
 }
 // Mozilla, Opera, Webkit
 if (document.addEventListener) {
